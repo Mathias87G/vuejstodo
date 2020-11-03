@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(20, 39, 87);
+    background: radial-gradient(circle, rgba(30, 30, 31, 1) 25%, rgb(20, 39, 87) 100%);
+}
+
+.todo svg:hover {
+    cursor: pointer;
+}
